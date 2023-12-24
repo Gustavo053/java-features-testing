@@ -12,6 +12,6 @@
 
     <name>java-features-testing</name>
     <groupId>com.org.example</groupId>
-    <artifactId>belbic4j</artifactId>
+    <artifactId>java-features-testing</artifactId>
     <version>1.0.0</version>
 </project>

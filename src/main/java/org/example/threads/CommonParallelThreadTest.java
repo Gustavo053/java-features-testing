@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class CommonThreadTest {
+public class CommonParallelThreadTest {
     public static void main(String[] args) {
         long begin = System.currentTimeMillis();
 

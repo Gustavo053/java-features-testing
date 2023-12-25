@@ -8,7 +8,7 @@ public class CommonParallelThreadTest {
     public static void main(String[] args) {
         long begin = System.currentTimeMillis();
 
-        try (ExecutorService executorService = Executors.newFixedThreadPool(1000)) {
+        try (ExecutorService executorService = Executors.newThreadPerTaskExecutor(Thread.ofPlatform().factory())) {
 
             var process = new ProcessTest();
 
